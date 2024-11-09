@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+body, html{
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+.container{
+    width: 1000px;
+    padding: 50px;
+    margin: 10px;
+}
+.header{
+    text-align: center;
+    padding: 20px;
+    margin-top: -50px;
+    font-weight: 800;
+}
+.cardformat{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    align-items: center;
+}

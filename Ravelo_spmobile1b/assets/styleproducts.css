@@ -1,0 +1,248 @@
+.card1{
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    background-color: white;
+    height: 450px;
+}
+.card1 .center{
+    text-align: center;
+    margin: 10px;
+    font-size: 14px;
+}
+.card1 img{
+    position: relative;
+    left: 115px;
+    height: 120px;
+}
+.images, .image-center{
+    display: grid;
+    grid-template-columns: 100px 100px;
+}
+.images img{
+    grid-column: 1;
+}
+.position{
+    position: relative;
+    left: 110px;
+}
+.position-third{
+    position: relative;
+    left: 90px;
+}
+
+.card2 h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+.save1{
+    margin-left: 12px;
+    width: 60px;
+    height: 60px;
+    background-color: #429486;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    transform: rotate(20deg);
+}
+.save1::before {
+    content: "";
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    right: -4px;
+    bottom: -4px;
+    border-radius: 50%;
+    border: 4px solid #ffe101;
+}
+
+.save{
+    width: 60px;
+    height: 60px;
+    background-color: #429486;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    transform: rotate(20deg);
+}
+.save::before {
+    content: "";
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    right: -4px;
+    bottom: -4px;
+    border-radius: 50%;
+    border: 4px solid #ffe101;
+}
+
+.save3{
+        margin-left: 30px;
+        width: 60px;
+        height: 60px;
+        background-color: #429486;
+        color: white;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-weight: bold;
+        font-size: 12px;
+        transform: rotate(20deg);
+}
+
+.save3::before {
+    content: "";
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    right: -4px;
+    bottom: -4px;
+    border-radius: 50%;
+    border: 4px solid #ffe101;
+}
+
+.header1{
+    border-radius: 15px 15px 0px 0px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.price{
+    font-size: 15px;
+    text-align: center;
+    margin: 10px 0px 5px 0px;
+    font-weight: bolder;
+}
+.discount{
+    color: red;
+    text-decoration: line-through;
+}
+.bprice{
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+.small-price{
+    font-size: 25px;
+}
+.shipping{
+    text-align: center;
+    text-decoration: underline;
+}
+.cartbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    margin: 10px 70px 10px;
+    background: linear-gradient(0deg, #d19400, #ffa229);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    height: 45px;
+    width: 145px;
+    white-space: nowrap;
+}
+
+.cartbtn:hover, .cart-txt:hover{
+    background-color: rgb(10, 195, 99);
+}
+.cartbtn img{
+    position: relative;
+    left: -9px;
+    height: 24px;
+    width: 24px;
+}
+.cart-txt{
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+.cards img{
+    height: 20px;
+    width: 100px;
+    margin-bottom: 10px;
+    margin-left: -19px;
+}
+.moneyback{
+    margin-top: -10px;
+    background-color: #499A95;
+    height: 41px;
+    border-radius: 0px 0px 15px 15px;
+}
+.moneytext{
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    padding: 12px;
+}
+.three-bots{
+    margin-left: -30px;
+}
+.only{
+    text-align: center;
+}
+.per{
+    text-align: center;
+}
+.card2{
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    height: 490px;
+    background-color: #E3FFFC;
+}
+.header2{
+    padding: 10px;
+    background: linear-gradient(to right, #5DABE6, #499A96);
+    color: white;
+    text-align: center;
+    border-radius: 15px 15px 0px 0px;
+    padding: 5px;
+}
+.card2 h5{
+    text-align: center;
+}
+.sixbotts{
+    position: relative;
+    top: 8px;
+    left: 50px;
+    height: 120px;
+    width: 240px;
+}
+.cards-center img{
+    height: 20px;
+    width: 100px;
+    margin-bottom: 16px;
+    margin-left: 95px;
+}
+.position-center{
+    position: relative;
+    left: 130px;
+    top: -35px;
+}
+.supply{
+    font-weight: 500; 
+    font-size: 15px;
+    font-weight: 600;
+}
+.buy{
+    font-weight: 900; 
+    font-size: 14px;
+}
+.free{
+    font-weight: 500; 
+    font-size: 12px;
+}

@@ -1,0 +1,24 @@
+<div class="ml-4">
+          <h2 class="text-xl font-bold text-primary">Unleash the Power of Our 20/20 Vision Supplement!</h2>
+          <p class="text-muted-foreground mt-2">Experience Crystal-Clear Vision</p>
+          <div class="mt-4">
+            <h3 class="text-lg font-semibold">Ingredients Known For:</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li class="flex items-center"><span class="mr-2 text-primary">👁️</span> Rediscover Clear Vision</li>
+              <li class="flex items-center"><span class="mr-2 text-primary">✨</span> Naturally Sharpened Focus</li>
+              <li class="flex items-center"><span class="mr-2 text-primary">🚫</span> Banish the blur</li>
+              <li class="flex items-center"><span class="mr-2 text-primary">🔋</span> ReEnergize Your Eyes</li>
+            </ul>
+          </div>
+          <div class="mt-4">
+            <button class="bg-accent text-accent-foreground hover:bg-accent/80 px-4 py-2 rounded-lg">Get -70% Discount</button>
+          </div>
+          <div class="mt-4 text-sm text-muted-foreground">
+            <p>✔️ 100% Satisfaction</p>
+            <p>✔️ 180 Days Guarantee</p>
+          </div>
+          <blockquote class="mt-4 border-l-4 border-muted pl-4 italic text-muted-foreground">
+            "Unbelievable results! 😃 My vision is now sharp, focused, and fatigue-free!"
+            <br />- Susan E, 65
+          </blockquote>
+        </div>

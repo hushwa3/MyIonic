@@ -1,0 +1,216 @@
+        <!--  Product 1 -->
+        <div class="card1">
+            <div class="header1">
+                <h6>SILVER</h6>
+                <h3>BUY 1 BOTTLE</h3>
+            </div>
+            <h6 class="center">1 Month Supply</h6>
+            <div>
+                <img src="assets/product1.png" alt="product1"> 
+                <div class="position"><span class="save">SAVE <br> $10</span></div>
+            </div>
+            <h6 class="price">Regular Price: <span class="discount">$69.00</span></h6>
+            <h1 class="bprice">$59 <span class="sprice">.00</span></h1>
+            <h6 class="shipping">+ SHIPPING</h6>
+            <button class="cartbtn">
+                <img src="assets/cart.png" alt="cart">
+                <span class="cart-text">Add to Cart</span>
+            </button>
+            <div class="cards"><img src="assets/cards.png" alt=""></div>
+            <div class="moneyback">
+                <h5 class="moneyback-text">180-DAY MONEY BACK GUARANTEE</h5>
+            </div>
+        </div>
+
+    .card1 {
+        background-color: #ffff;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 15px;
+        text-align: center;
+        width: 300px; 
+        margin: 10px;
+        height:fit-content;
+        font-family: 'Inter';
+    }
+
+/* Title Section */
+    .card1 h6, .card1 h3 {
+        margin: 0;
+        font-weight: bolder;
+        color: #000000;
+        box-sizing: border-box;
+    
+    }
+
+.header1{
+    background-color:  #14141e;
+    padding: 10px 0;
+    margin: -15px -15px 10px -15px; 
+    border-radius: 10px 10px 0 0; 
+    
+}
+
+.header1 h6{
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.header1 h3{
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 900;
+}
+
+.center{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+/* Image Section */
+.card1 img {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+/* Save Badge Styling */
+.position {
+    position: relative;
+    display: inline-block;
+}
+
+.save {
+    position: absolute;
+    top: -190px;
+    right: -100px;
+    background-color: #f0c040;
+    border-radius: 50%;
+    padding: 10px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.2;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(20deg);
+}
+
+/* Price Section */
+
+.price {
+    font-size: 16px;
+    color: black;
+    margin: 10px 0;
+}
+
+.discount {
+    text-decoration: line-through;
+    color: red;
+    font-weight: bold;
+}
+
+.bprice {
+    font-size: 70px;
+    font-weight: bolder;
+    margin: 5px 0;
+}
+
+.sprice {
+    margin-left: -15px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.shipping {
+    font-size: 15px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: black;
+    text-decoration: underline;
+    position: relative;
+}
+
+/.header, .header2, .header3{
+    text-align: center;
+    font-family: 'Inter';
+    font-weight: bolder;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    gap: 35px;
+    font-family: 'Inter';
+}
+
+.card2, .card3, h6{
+    align-items: center;
+}
+
+/* Button Styling */
+.cartbtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 50px;
+    white-space: nowrap;
+    height: 45px;
+    width: 145px;
+    padding: 10px 20px;
+    margin: 10px 80px 10px;
+    background: linear-gradient(0deg, #db9a38, #ffbd67);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+} 
+
+button img {
+    position: relative;
+    bottom: -4px;
+    left: -5px; 
+    height: 24px; 
+    width: 24px;
+}
+
+button:hover {
+    background-color: #997b20;
+}
+
+.cart-text {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+/* Payment Cards Styling */
+.cards img {
+    width: 150px; 
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Money Back Guarantee */
+.moneyback {
+    background-color: #549691;
+    padding: 10px;
+    margin: 0 -15px -15px -15px;
+    border-radius: 0 0 10px 10px;
+    color: white;
+    text-align: center;
+}
+
+.moneyback-text {
+    font-size: 12px;
+    color: #ffff;
+    font-weight: bold;
+    margin: 0;
+}
